@@ -1,0 +1,221 @@
+@font-face {
+font-family:titlefont;    
+src: url(../media/head_roboto.ttf);    
+    
+}
+
+@font-face {
+font-family:subfont;    
+src: url(../media/sub_heebo.ttf);    
+    
+}
+
+@font-face {
+font-family:bodyfont;    
+src: url(../media/body_karla.ttf);    
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.jumbotron{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 !important;
+    height: 100vh;   
+}
+#firstjumbopic{
+    background-image: url(../media/jumbo.JPG);
+    
+}
+
+#secondjumbopic{
+    background-image: url(../media/giving.jpeg);
+    position: relative;
+}
+
+
+.myjumbo{
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 !important;
+    height: 100vh; 
+
+}
+
+.myjumbo::before{
+    content: "";
+    position: absolute;
+    top: 1000px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 0;
+}
+
+.jumbotron::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 0;
+}
+
+/* .navbar{
+    background-color: transparent;
+} */
+
+.jumbotext{
+    font-family: titlefont;
+    font-size: 2.5rem;
+    color: rgb(247, 247, 247);
+    position: relative;
+}
+.jumbobody{
+    font-family: bodyfont;
+    font-size: 1.7rem;
+    color: rgb(247, 247, 247);
+    position: relative;
+    background-color: rgb(10, 80, 158);
+    border-radius: 4rem;
+    border: none;
+}
+
+#hover-bg{
+    background-color: rgb(42, 114, 196);
+    transition: .4s ease-in-out;
+}
+
+#hover-bg:hover{
+    background-color: rgb(30, 71, 117);
+    
+}
+
+
+.btn-green{
+    font-family: bodyfont;
+    font-size: 1.7rem;
+    color: rgb(247, 247, 247);
+    position: relative;
+    background-color: rgb(46, 154, 71);
+    border-radius: 4rem;
+    border: none;
+    transition: .4s ease-in-out;
+}
+
+.btn-green:hover{
+    background-color: rgb(29, 105, 47);
+    
+
+}
+
+.navbar-text{
+    font-family: bodyfont;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+
+
+
+.bg-blue{
+    background-color: rgb(10, 80, 158);
+}
+
+.titletext{
+    font-family: titlefont;
+    font-size: 3.5rem;
+    color: rgb(247, 247, 247);
+}
+
+.bodytext{
+    font-family: bodyfont;
+    font-size: 2rem;
+    color: rgb(247, 247, 247);
+}
+
+.accordiontext{
+    font-family: bodyfont;
+    font-size: 1.2rem;
+    color: rgb(247, 247, 247);
+}
+
+.bg-green{
+    background-color: rgb(46, 154, 71);
+}
+
+.card{
+    background-color: transparent;
+    border: none;
+}
+
+.card-body{
+    color: white;
+}
+
+#cardaccordion{
+
+    background-color: rgb(127, 209, 165) !important;
+    border: none;
+}
+
+.accordion{
+    background-color: #7d8996;
+}
+
+#cardpeople{
+    background-color: transparent;
+    border: none;
+
+}
+
+.bg-orange{
+    background-color: rgb(243, 116, 33);
+}
+
+.bg-gray{
+    background-color: #6f757c;
+}
+
+.footertext{
+    font-family: bodyfont;
+    font-size: 1.5rem;
+    color: rgb(247, 247, 247);
+}
+
+
+.navbar-bg-color.scrolled{
+    background-color: #647d9a;
+    transition: .3s ease-in-out;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler-icon{
+    font-size: 1.8rem;
+}
+
+.nav-link{
+    color: white;
+    transition: .4s ease-in-out;
+}
+
+.nav-link:hover{
+
+    color: rgb(171, 225, 124);
+
+}
